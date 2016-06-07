@@ -17,6 +17,7 @@
 		350085751D06DF6900012B1F /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 350085711D06DF6900012B1F /* right_arrow@2x.png */; };
 		350085781D06E4D900012B1F /* Female.png in Resources */ = {isa = PBXBuildFile; fileRef = 350085761D06E4D900012B1F /* Female.png */; };
 		350085791D06E4D900012B1F /* Male.png in Resources */ = {isa = PBXBuildFile; fileRef = 350085771D06E4D900012B1F /* Male.png */; };
+		354F85BD1D070137007A9DFC /* Sagar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354F85BC1D070137007A9DFC /* Sagar.storyboard */; };
 		358B817A1D068D0C00AE8BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358B81791D068D0C00AE8BCE /* main.m */; };
 		358B817D1D068D0C00AE8BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358B817C1D068D0C00AE8BCE /* AppDelegate.m */; };
 		358B81801D068D0C00AE8BCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358B817F1D068D0C00AE8BCE /* ViewController.m */; };
@@ -62,6 +63,7 @@
 		350085711D06DF6900012B1F /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
 		350085761D06E4D900012B1F /* Female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Female.png; sourceTree = "<group>"; };
 		350085771D06E4D900012B1F /* Male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Male.png; sourceTree = "<group>"; };
+		354F85BC1D070137007A9DFC /* Sagar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sagar.storyboard; sourceTree = "<group>"; };
 		358B81751D068D0C00AE8BCE /* HopersClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopersClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358B81791D068D0C00AE8BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		358B817B1D068D0C00AE8BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				358B817E1D068D0C00AE8BCE /* ViewController.h */,
 				358B817F1D068D0C00AE8BCE /* ViewController.m */,
 				358B81811D068D0C00AE8BCE /* Main.storyboard */,
+				354F85BC1D070137007A9DFC /* Sagar.storyboard */,
 				358B81871D068D0C00AE8BCE /* Assets.xcassets */,
 				350085761D06E4D900012B1F /* Female.png */,
 				350085771D06E4D900012B1F /* Male.png */,
@@ -345,6 +348,7 @@
 				350085791D06E4D900012B1F /* Male.png in Resources */,
 				350085731D06DF6900012B1F /* left_arrow@2x.png in Resources */,
 				358B818B1D068D0C00AE8BCE /* LaunchScreen.storyboard in Resources */,
+				354F85BD1D070137007A9DFC /* Sagar.storyboard in Resources */,
 				350085751D06DF6900012B1F /* right_arrow@2x.png in Resources */,
 				350085741D06DF6900012B1F /* right_arrow.png in Resources */,
 				358B81881D068D0C00AE8BCE /* Assets.xcassets in Resources */,
