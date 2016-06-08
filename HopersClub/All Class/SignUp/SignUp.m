@@ -70,6 +70,7 @@ fieldText.attributedPlaceholder = [[NSAttributedString alloc] initWithString:pla
         
         
         [self.view addSubview:calendar];
+        calendar.hidden=YES;
         
         self.dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(calendar.frame) + 4, self.view.bounds.size.width, 24)];
         [self.view addSubview:self.dateLabel];
