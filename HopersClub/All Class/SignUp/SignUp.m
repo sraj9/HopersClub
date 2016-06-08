@@ -22,7 +22,7 @@ fieldText.attributedPlaceholder = [[NSAttributedString alloc] initWithString:pla
 
 @interface SignUp (){
     NSString *selectedDate;
-
+    
 }
 @property(nonatomic, weak) CKCalendarView *calendar;
 @property(nonatomic, strong) UILabel *dateLabel;
@@ -38,8 +38,13 @@ fieldText.attributedPlaceholder = [[NSAttributedString alloc] initWithString:pla
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    
+    
     [_datePicker setValue:[UIColor colorWithRed:35.0/255.0 green:153.0/255 blue:218.0/255.0 alpha:1.0] forKey:@"textColor"];
-
+    
     TextPlaceholder(_firstNameField, @"First Name");
     
     if (self) {
@@ -92,14 +97,14 @@ fieldText.attributedPlaceholder = [[NSAttributedString alloc] initWithString:pla
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 - (BOOL)dateIsDisabled:(NSDate *)date {
     for (NSDate *disabledDate in self.disabledDates) {
